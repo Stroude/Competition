@@ -2,7 +2,7 @@
 'https://fonts.google.com/css?family=Berkshire+Swash');
 h1 {
   color: gray;
-  font:48px 'Berkshire Swash'
+  font:48px 'Berkshire Swash';
 }
 #carousel-example-generic{
   margin-top: 1%;
@@ -14,5 +14,5 @@ h1 {
   font:80px'Amatic SC'
 }
 .carousel-caption p{
-  font:20px 'Amatic SC'
+  font:20px 'Amatic SC';
 }
