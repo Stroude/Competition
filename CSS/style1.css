@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC','https://fonts.google.com/specimen/Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC',
+'https://fonts.google.com/css?family=Berkshire+Swash');
 h1 {
   color: gray;
-  font: 'Berkshire Swash'
+  font:48px 'Berkshire Swash'
 }
 #carousel-example-generic{
   margin-top: 1%;
