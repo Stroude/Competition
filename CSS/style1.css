@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC',
-'https://fonts.google.com/css?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.google.com/css?family=Berkshire+Swash');
 h1 {
   color: gray;
   font:48px 'Berkshire Swash';
