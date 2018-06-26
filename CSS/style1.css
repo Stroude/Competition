@@ -1,6 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-h1 {
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|EB+Garamond');
+.title {
   color: gray;
+  text-align: center;
+  font: 60px 'EB Garamond';
+}
+.tagline{
+  color:gray;
+  text-align:center;
+  font:20px 'Dancing Script';
 }
 #carousel-example-generic{
   margin-top: 1%;
