@@ -12,7 +12,57 @@ h1 {
   font:80px 'Amatic SC'
 }
 .carousel-caption p{
-  font:20px 'Amatic SC';
+  font:20px 'Amatic SC'
+}
+.col-md-4 {
+  padding:4px
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:;
+}
+
+.feature:hover .overlay {
+  opacity: 1;
+}
+.feature:hover .post-title{
+  opacity:0;
+}
+.feature:hover .img-responsive{
+  opacity:0.7;
+}
+
+.post-info {
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #696c6d;
+  opacity:1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.post-title {
+  color: white;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #696c6d;
+  opacity:1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 .contact {
   color: red
