@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-@import url('https://fonts.google.com/css?family=Berkshire+Swash');
 h1 {
   color: gray;
-  font:48px 'Berkshire Swash';
 }
 #carousel-example-generic{
   margin-top: 1%;
@@ -11,7 +9,7 @@ h1 {
   margin-left: 5%;
 }
 .carousel-caption h2{
-  font:80px'Amatic SC'
+  font:80px 'Amatic SC'
 }
 .carousel-caption p{
   font:20px 'Amatic SC'
@@ -66,3 +64,6 @@ h1 {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+.contact {
+  color: red
+  }
