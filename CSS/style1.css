@@ -1,19 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Dawning+of+a+New+Day');
-
+@media screen and (min-width: 601px){
 .title {
   color: #aeb0b2;
   text-align: center;
-  font: 70px 'Dawning of a New Day';
+  font: 80px 'Dawning of a New Day';
+}}
+@media screen and (max-width: 600px){
+.title {
+  color: #aeb0b2;
+  text-align: center;
+  font: 40px 'Dawning of a New Day';
+}}
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  }
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+    margin-left:left: 8px;
+    margin-right: 8px;
+  }
+.navbar-default{
+  background-color: white;
+  background-image: none;
+  border-color: white;
 }
+
 #carousel-example-generic{
   margin-top: 1%;
   margin-bottom: 1%;
   margin-right: 5%;
   margin-left: 5%;
 }
+@media screen and (min-width: 601px){
 .carousel-caption h2{
   font:80px 'Amatic SC'
-}
+}}
+@media screen and (max-width: 600px){
+.carousel-caption h2{
+  font:40px 'Amatic SC'
+}}
 .carousel-caption p{
   font:20px 'Amatic SC'
 }
@@ -73,3 +100,19 @@
 .contact {
   color: red
   }
+.parallax{
+  background-image: url("Beach footprint.jpg");
+  height:500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: 601px){
+.image-overlay h2{
+  font:80px 'Amatic SC'
+}}
+@media screen and (max-width: 600px){
+.image-overlay h2{
+  font:40px 'Amatic SC'
+}}
