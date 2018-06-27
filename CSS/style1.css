@@ -17,6 +17,9 @@
 .carousel-caption p{
   font:20px 'Amatic SC'
 }
+#carousel-example-generic .carousel-slide{
+  height:125px
+}
 .col-md-4 {
   padding:4px
 }
