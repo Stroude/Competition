@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Dawning+of+a+New+Day');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Dawning+of+a+New+Day|Josefin+Sans:100');
 @media screen and (min-width: 601px){
 .title {
   color: #aeb0b2;
@@ -110,9 +110,29 @@
 }
 @media screen and (min-width: 601px){
 .image-overlay h2{
-  font:80px 'Amatic SC'
+  font:60px 'Amatic SC';
+  text-align: left;
+  color:white;
+  padding:10px;
 }}
 @media screen and (max-width: 600px){
 .image-overlay h2{
-  font:40px 'Amatic SC'
+  font:40px 'Amatic SC';
+  text-align: left;
+  color:white;
+  padding:4px;
+}}
+@media screen and (min-width: 601px){
+.image-overlay p{
+  font:30px 'Josefin Sans';
+  text-align: left;
+  color:white;
+  padding:10px;
+}}
+@media screen and (max-width: 600px){
+.image-overlay p{
+  font:20px 'Josefin Sans';
+  text-align: left;
+  color:white;
+  padding:4px;
 }}
