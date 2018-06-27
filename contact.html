@@ -6,20 +6,65 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Go with the Flow</title>
 	<link rel="stylesheet" type="text/css" href="CSS/style1.css">
+	<link rel="stylesheet" type="text/css" href="CSS/social-style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<div class = 'container'>
-		<h1>Go with the Flow</h1>
-	<nav>
-		<ul class="nav nav-tabs nav-justified">
-			<li role="presentation"><a href="./index.html">Home</a></li>
- 			<li role="presentation"><a href="./about.html">About</a></li>
- 			<li role="presentation"><a href="./tips.html">Tips</a></li>
-  		<li role="presentation"><a href="./tales.html">Tales</a></li>
-			<li role="presentation" class="active"><a href="./contact.html">Contact</a></li>
-		</ul>
+	<div class = "container">
+		<header id="page-top">
+			<p class="title">Go with the Flow</p>
+		</header>
+	<nav class>
+		<div class= "navbar-collapse collapse">
+			<ul class="nav nav-justified">
+				<li role="presentation" class="active"><a href="./index.html">Home</a></li>
+	 			<li role="presentation"><a href="./about.html">About</a></li>
+				<li role="presentation"><a href="./tips.html">Tips</a></li>
+	  		<li role="presentation"><a href="./tales.html">Tales</a></li>
+				<li role="presentation"><a href="./contact.html">Contact</a></li>
+			</ul>
+		</div>
 	</nav>
 	</div>
+	<div>
+		<h2>Get in touch</h2>
+	</div>
+			<form class="contact">
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+					<input id="first-name" type="text" class="form-control" name="first-name" placeholder="First name">
+				</div>
+				<div class="input-group">
+    			<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    			<input id="surname" type="text" class="form-control" name="surname" placeholder="Surname">
+  			</div>
+				<div class="input-group">
+    			<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+    			<input id="email" type="text" class="form-control" name="email" placeholder="Email address">
+  			</div>
+				<div class="input-group">
+    			<span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>
+    			<input id="country" type="text" class="form-control" name="country" placeholder="Country">
+  			</div>
+  			<div class="input-group">
+    			<span class="input-group-addon"><i class="glyphicon glyphicon-comment"></i></span>
+					<textarea rows="5" id="message" type="text" class="form-control" name="message" placeholder="Your message"></textarea>
+  			</div>
+				<div class="input-group">
+      		<button type="submit" class="btn btn-default">Submit</button>
+				</div>
+			</form>
+		<section class = "container">
+				<div class="col-md-12">
+								<ul class="social-network social-circle">
+										<li><a href="https://en-gb.facebook.com/" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="https://twitter.com/" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="https://plus.google.com/discover" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+										<li><a href="https://uk.linkedin.com/" target='_blank' class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+								</ul>
+				</div>
+		</section>
+
 	<script
 		src="https://code.jquery.com/jquery-3.3.1.min.js"
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

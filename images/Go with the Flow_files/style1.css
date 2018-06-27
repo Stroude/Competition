@@ -1,9 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Dawning+of+a+New+Day');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|EB+Garamond');
+header {
+    text-align: center;
+    color: #;
+    background: #eaeaea;
 
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    height: 30%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
 .title {
-  color: #aeb0b2;
+  color: gray;
   text-align: center;
-  font: 70px 'Dawning of a New Day';
+  font: 60px 'EB Garamond';
 }
 #carousel-example-generic{
   margin-top: 1%;
@@ -16,9 +28,6 @@
 }
 .carousel-caption p{
   font:20px 'Amatic SC'
-}
-#carousel-example-generic .carousel-slide{
-  height:125px
 }
 .col-md-4 {
   padding:4px
