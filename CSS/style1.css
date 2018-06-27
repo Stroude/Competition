@@ -10,7 +10,13 @@
   color: #aeb0b2;
   text-align: center;
   font: 40px 'Dawning of a New Day';
-}}
+}
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: center;
+}
 .navbar-nav {
   width: 100%;
   text-align: center;
@@ -21,6 +27,7 @@
     margin-left:left: 8px;
     margin-right: 8px;
   }
+
 #myNavbar .nav li{
   font: 20px 'Josefin Sans'
 }
@@ -45,7 +52,7 @@
   font:40px 'Amatic SC'
 }}
 .carousel-caption p{
-  font:20px 'Amatic SC'
+  font:20px 'Josefin Sans'
 }
 #carousel-example-generic .carousel-slide{
   height:125px
@@ -104,7 +111,7 @@
   color: red
   }
 .parallax{
-  background-image: url("Beach footprint.jpg");
+  background-image: url("../images/beach-footprint.jpg");
   height:500px;
   background-attachment: fixed;
   background-position: center;
@@ -120,7 +127,7 @@
 }}
 @media screen and (max-width: 600px){
 .image-overlay h2{
-  font:40px 'Amatic SC';
+  font:30px 'Amatic SC';
   text-align: left;
   color:white;
   padding:4px;
@@ -134,7 +141,7 @@
 }}
 @media screen and (max-width: 600px){
 .image-overlay p{
-  font:20px 'Josefin Sans';
+  font:15px 'Josefin Sans';
   text-align: left;
   color:white;
   padding:4px;
