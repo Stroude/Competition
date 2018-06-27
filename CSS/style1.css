@@ -146,3 +146,12 @@
   color:white;
   padding:4px;
 }}
+.contact {
+  padding:10px;
+}
+.form-control {
+  font:20px 'Josefin Sans';
+}
+.btn {
+  font:20px 'Josefin Sans';
+}
