@@ -21,6 +21,9 @@
     margin-left:left: 8px;
     margin-right: 8px;
   }
+#myNavbar .nav li{
+  font: 20px 'Josefin Sans'
+}
 .navbar-default{
   background-color: white;
   background-image: none;
@@ -75,7 +78,7 @@
 
 .post-info {
   color: white;
-  font-size: 20px;
+  font: 30px 'Josefin Sans';
   text-shadow: 1px 1px 1px #696c6d;
   opacity:1;
   position: absolute;
@@ -87,7 +90,7 @@
 }
 .post-title {
   color: white;
-  font-size: 30px;
+  font: 40px 'Josefin Sans';
   text-shadow: 1px 1px 1px #696c6d;
   opacity:1;
   position: absolute;
